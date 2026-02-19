@@ -59,17 +59,32 @@ export default function MahiruShiinaPage() {
     <main className='relative bg-[#FFF8F1] text-[#222222] font-varela overflow-hidden animate-fadein'>
       {/* Background Images */}
       <div className='fixed h-screen w-screen opacity-40 pointer-events-none'>
-        <img src='https://embed.pixiv.net/artwork.php?illust_id=120547175&mdate=1721007877' alt='bg 1' className='max-h-screen w-full h-full object-cover' />
-        <img src='https://w0.peakpx.com/wallpaper/417/29/HD-wallpaper-anime-mahiru-shiina-the-angel-next-door-spoils-me-rotten.jpg' alt='bg 2' className='max-h-screen w-full h-full object-cover' />
+        <img
+          src='https://embed.pixiv.net/artwork.php?illust_id=120547175&mdate=1721007877'
+          alt='background Mahiru'
+          className='max-h-screen w-full h-full object-cover'
+        />
+        <img
+          src='https://w0.peakpx.com/wallpaper/417/29/HD-wallpaper-anime-mahiru-shiina-the-angel-next-door-spoils-me-rotten.jpg'
+          alt='background Mahiru'
+          className='max-h-screen w-full h-full object-cover'
+        />
+        <img
+          src='https://c.wallhere.com/photos/36/67/anime_anime_girls_Shiina_Mahiru_Otonari_no_Tenshi_sama_schoolgirl_school_uniform_vertical_bow_tie-2217668.jpg!d'
+          alt='background Mahiru'
+          className='min-h-screen w-full h-full object-cover'
+        />
       </div>
 
       <div className='min-h-screen mb-8'>
         <header className='pt-8 px-4 sm:px-6 md:px-30 relative z-20'>
-          <h1 data-aos='fade-up' className='font-fredoka text-4xl md:text-6xl font-bold text-[#A68A79] leading-tight animate-typing overflow-hidden w-fit whitespace-nowrap border-r-4 border-[#A68A79]'>
+          <h1
+            data-aos='fade-up'
+            className='font-fredoka text-4xl md:text-6xl font-bold text-[#A68A79] leading-tight animate-typing overflow-hidden w-fit whitespace-nowrap border-r-4 border-[#A68A79]'>
             Mahiru Shiina
           </h1>
           <p data-aos='fade-up' className='font-fredoka text-xl md:text-2xl text-[#6E5C52] mt-1'>
-            The Angel Next Door
+            Angel Next Door Spoils Me Rotten
           </p>
         </header>
 
@@ -85,64 +100,135 @@ export default function MahiruShiinaPage() {
 
         <section className='mt-8 px-4 sm:px-6 md:px-20 lg:px-30 xl:w-[75%] grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 relative '>
           <div data-aos='zoom-in' className='rounded-[24px] border border-stone-300 overflow-hidden shadow-lg h-48 sm:h-64 md:h-72 xl:col-span-2'>
-            <img src='https://i0.wp.com/www.englishlightnovels.com/wp-content/uploads/2020/09/the-angel-next-door-spoils-me-rotten-banner.jpg?fit=1200%2C600&ssl=1&w=640' alt='Banner' className='w-full h-full object-cover' />
+            <img
+              src='https://i0.wp.com/www.englishlightnovels.com/wp-content/uploads/2020/09/the-angel-next-door-spoils-me-rotten-banner.jpg?fit=1200%2C600&ssl=1&w=640'
+              alt='Mahiru 1'
+              className='w-full h-full object-cover'
+            />
           </div>
 
-          <div data-aos='flip-left' className='rounded-[24px] border border-stone-300 overflow-hidden shadow-lg h-48 sm:h-64 md:h-72'>
-            <img src='https://i.pinimg.com/736x/ec/3c/67/ec3c67c692f01f00232e7e039ef80b9a.jpg' alt='Mahiru Portrait' className='w-full h-full object-cover' />
+          <div className='rounded-[24px] border border-stone-300 overflow-hidden shadow-lg h-48 sm:h-64 md:h-72'>
+            <img
+              data-aos='flip-left'
+              src='https://i.pinimg.com/736x/ec/3c/67/ec3c67c692f01f00232e7e039ef80b9a.jpg'
+              alt='Mahiru 2'
+              className='w-full h-full object-cover'
+            />
           </div>
 
-          <div data-aos='fade-right' className='col-span-1 xl:col-span-2 h-auto bg-white/30 p-6 rounded-3xl backdrop-blur-sm'>
-            <p className='font-inter font-bold text-base sm:text-lg mb-1 uppercase tracking-wider text-[#A68A79]'>The Angel Next Door Spoils Me Rotten</p>
-            <h3 className='font-inter font-bold text-sm sm:text-base mb-2'>VA: Manaka Iwami</h3>
-            <p className='text-sm sm:text-base leading-relaxed text-gray-700'>
-              Mahiru Shiina is known as "The Angel" for her incredible beauty and academic excellence. While she maintains a perfect exterior, she is a deeply compassionate individual who cares for those she holds dear with unwavering loyalty.
+          <div data-aos='fade-right' className='col-span-1 xl:col-span-2 h-auto'>
+            <p className='font-inter font-bold text-base sm:text-lg mb-1'>お隣の天使様にいつの間にか駄目人間にされていた件</p>
+            <h3 className='font-inter font-bold text-sm sm:text-base mb-2'>Voice Actress: Manaka Iwami</h3>
+            <p className='text-sm sm:text-base leading-snug'>
+              Mahiru Shiina is portrayed in the light novel as a graceful and beautiful girl known as "The Angel" at school for her perfect looks and composed
+              demeanor. Despite her flawless public image, she is gentle, caring, and secretly lonely, longing to be seen not as an ideal, but simply as herself.
             </p>
-            <p className='font-semibold text-[#A68A79] mt-4 text-sm sm:text-base border-l-4 border-[#A68A79] pl-3'>
-              Claimed by {" "}
-              <a href='https://github.com/Dbz-Mahin7x' className='underline font-bold hover:text-[#8a6d5a]'>
-                Dbz-Mahin7x
+            <p className='text-sm sm:text-base leading-snug mt-2'>
+              Mahiru Shiina has fair skin that seems to glow softly in the light, like fine porcelain reflecting serenity. Her hair is long, straight, and light
+              brown with elegant golden shades—as if reflecting the afternoon sun. Her caramel brown eyes are warm yet sharp, holding both tenderness and
+              firmness. Her posture is slender and graceful, making her every movement look like a small, enchanting dance.
+            </p>
+            <p className='font-semibold text-[#A68A79] mt-2 text-sm sm:text-base'>
+              And she is{" "}
+              <a href='https://github.com/Dbz-Mahin7x' className='underline'>
+                Dbz-Mahin7x's
               </a>{" "}
-              ❤️
+              Wife ❤️
             </p>
-            <p className='mt-6 text-2xl font-bold text-[#A68A79] italic'>
-              "I want to be the one who stays by your side." <br />— Mahiru Shiina
+            <p className='mt-6 text-2xl font-bold text-[#A68A79]'>
+              "What kind of woman who always change boyfriends?" <br />- Mahiru Shiina
             </p>
+          </div>
+          <div data-aos='flip-up' className='hidden md:block rounded-[24px] border border-stone-300 overflow-hidden shadow-lg h-48 sm:h-64 md:h-72'>
+            <img src='https://i.pinimg.com/736x/41/4f/34/414f3448c918054fac2625478092e825.jpg' alt='Mahiru 3' className='w-full h-full object-cover' />
           </div>
         </section>
       </div>
 
-      <section className='flex flex-col xl:flex-row px-4 gap-4'>
-        <section className='bg-white/80 mb-6 border border-stone-200 rounded-3xl text-justify py-8 px-6 sm:px-10 xl:w-[74%] z-20 shadow-sm'>
-          <h2 className='font-inter font-bold text-2xl sm:text-3xl mb-4 text-[#A68A79]'>The Chronicle of Dbz-Mahin7x & Mahiru</h2>
-          <div className='space-y-4 text-gray-800 leading-relaxed'>
+      <section className='flex px-3 gap-3 flex-col xl:flex-row'>
+        <section className='bg-neutral-200/60 mb-6 border rounded-xl text-justify py-6 backdrop-blur px-4 sm:px-6 md:px-20 lg:px-30 xl:w-[74%] z-20'>
+          <h2 className='font-inter font-bold text-xl sm:text-2xl md:text-3xl mb-3'>My Story with Mahiru</h2>
+          <div className="space-y-4 text-gray-800 leading-relaxed">
             <p>
-              The bond between <b>Dbz-Mahin7x</b> and Mahiru Shiina is one that transcends the ordinary. From her legendary home-cooked meals to the quiet moments of mutual support, every day is a testament to a unique and powerful connection.
+              Mahiru is my wife, period. The story of me and Mahiru Shiina is a tale of endless love. We are an inseparable couple, loving each other in such a deep and caring way. I always feel that my life has been so meaningful ever since Mahiru came into my life. Every day with her is a day filled with happiness, and I would do anything to make her happy. Mahiru, my beloved wife, is the one who always fills my days with warmth and love.
             </p>
             <p>
-              Across every platform and every profile, <b>Dbz-Mahin7x</b> stands as the ultimate supporter of "The Angel." This page serves as a permanent record of that dedication. Whether it's the attention to detail in her favorite recipes or the specific way she carries herself, every aspect of Mahiru's character is celebrated here.
+              Every time she cooks, I always say, "This is the most delicious food in the world." I know very well how much she pays attention to detail in everything, even in the meals she prepares. Not only that, Mahiru often surprises me with new recipes, and I'm always the first tester. I love every moment we spend together. Our lives are filled with extraordinary little habits. When Mahiru studies, I'm always by her side, being a timer that reminds her to take breaks.
             </p>
             <p>
-              In every timeline and every universe, <b>Dbz-Mahin7x</b> remains the primary protector of Mahiru's happiness. This isn't just a fan page; it's a digital sanctuary dedicated to the one and only Mahiru Shiina.
+              I know what she likes and dislikes, from her favorite menu to the way she ties her hair. I memorize all her habits, even the way she chooses her perfume. Every time she feels tired or stressed, I'm always there to listen and give a comforting hug. Mahiru also always pays attention to me, in small ways that make me feel so special. She often gives me spontaneous hugs, and I know that she always wants to make sure I feel appreciated.
+            </p>
+            <p>
+              Our relationship is filled with sincere love. We support each other in every step of life. When Mahiru feels worried or sad, I'm always there to give her support and affection. I know how important she is in my life, and I always want to be the best husband for her, in this world and in parallel universes. We often talk about the future, including our children. We've already prepared a name for our child, "Mahiru Jr."
+            </p>
+            <p>
+              I always imagine a future filled with happiness with Mahiru, and I'm sure we will continue to love each other, no matter what happens. Mahiru is everything to me, and I'm grateful every day that she is part of my life. Every second with her is an invaluable gift. I know, nothing is more important in my life than Mahiru.
+            </p>
+            <p className="font-semibold text-[#A68A79] text-center text-lg mt-4">
+              Mahiru is my wife, period. <br />
+              Mahiru is my forever love. <br />
+              It's written in our marriage certificate: I am Mahiru's husband.
             </p>
           </div>
         </section>
 
         {/* Side Info Cards */}
         <div className='hidden md:grid grid-cols-2 xl:flex xl:flex-col gap-3'>
-          {[
-            { img: "https://cdn.rafled.com/anime-icons/images/MkwemjYUi1kOnbcgIH7yuILlabLghDrO.jpg", title: "155 cm", desc: "Height" },
-            { img: "https://s1.zerochan.net/Shiina.Mahiru.600.2905948.jpg", title: "椎名 真昼", desc: "Kanji" },
-            { img: "https://s1.zerochan.net/Shiina.Mahiru.600.3068428.jpg", title: "Dec 6th", desc: "Birthday" },
-          ].map((stat, i) => (
-            <div key={i} className='relative w-full xl:w-80 h-52 rounded-2xl overflow-hidden shadow-md group'>
-              <img src={stat.img} alt={stat.title} className='w-full h-full object-cover group-hover:scale-105 transition-transform duration-700' />
-              <div className='absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex flex-col items-center justify-end pb-6 text-white'>
-                <h1 className='text-2xl font-bold tracking-tight'>{stat.title}</h1>
-                <p className='text-sm font-medium opacity-90'>{stat.desc}</p>
-              </div>
+          <div className='relative w-full xl:w-80 h-52 rounded-2xl overflow-hidden shadow-md group'>
+            <img src='https://cdn.rafled.com/anime-icons/images/MkwemjYUi1kOnbcgIH7yuILlabLghDrO.jpg' alt='Mahiru' className='w-full h-full object-cover group-hover:scale-105 transition-transform duration-700' />
+            <div className='absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex flex-col items-center justify-end pb-6 text-white'>
+              <h1 className='text-2xl font-bold tracking-tight'>155 cm</h1>
+              <p className='text-sm font-medium opacity-90'>Her height is cute</p>
             </div>
-          ))}
+          </div>
+          
+          <div className='relative w-full xl:w-80 h-52 rounded-2xl overflow-hidden shadow-md group'>
+            <img src='https://s1.zerochan.net/Shiina.Mahiru.600.2905948.jpg' alt='Mahiru' className='w-full h-full object-cover group-hover:scale-105 transition-transform duration-700' />
+            <div className='absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex flex-col items-center justify-end pb-6 text-white'>
+              <h1 className='text-2xl font-bold tracking-tight'>椎名 真昼</h1>
+              <p className='text-sm font-medium opacity-90'>Japanese Name</p>
+            </div>
+          </div>
+          
+          <div className='relative w-full xl:w-80 h-52 rounded-2xl overflow-hidden shadow-md group'>
+            <img src='https://s1.zerochan.net/Shiina.Mahiru.600.3068428.jpg' alt='Mahiru' className='w-full h-full object-cover group-hover:scale-105 transition-transform duration-700' />
+            <div className='absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex flex-col items-center justify-end pb-6 text-white'>
+              <h1 className='text-2xl font-bold tracking-tight'>December 6th</h1>
+              <p className='text-sm font-medium opacity-90'>Birthday</p>
+            </div>
+          </div>
+          
+          <div className='relative w-full xl:w-80 h-52 rounded-2xl overflow-hidden shadow-md group'>
+            <img src='https://s1.zerochan.net/Shiina.Mahiru.600.3068429.jpg' alt='Mahiru' className='w-full h-full object-cover group-hover:scale-105 transition-transform duration-700' />
+            <div className='absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex flex-col items-center justify-end pb-6 text-white'>
+              <h1 className='text-2xl font-bold tracking-tight'>Age 16</h1>
+              <p className='text-sm font-medium opacity-90'>17 in Light Novel</p>
+            </div>
+          </div>
+          
+          <div className='relative w-full xl:w-80 h-52 rounded-2xl overflow-hidden shadow-md group'>
+            <img src='https://i0.wp.com/anitrendz.net/news/wp-content/uploads/2023/02/angel-next-door-spoils-me-rotten-mahiru-shiina-valentines-visual-e1676143192341.jpg?fit=1460%2C825&ssl=1' alt='Mahiru' className='w-full h-full object-cover group-hover:scale-105 transition-transform duration-700' />
+            <div className='absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex flex-col items-center justify-end pb-6 text-white'>
+              <h1 className='text-2xl font-bold tracking-tight'>Blonde/Flaxen</h1>
+              <p className='text-sm font-medium opacity-90'>Hair Color</p>
+            </div>
+          </div>
+          
+          <div className='relative w-full xl:w-80 h-52 rounded-2xl overflow-hidden shadow-md group'>
+            <img src='https://pbs.twimg.com/media/Fl-B7b5aUAAPLJF?format=jpg&name=4096x4096' alt='Mahiru' className='w-full h-full object-cover group-hover:scale-105 transition-transform duration-700' />
+            <div className='absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex flex-col items-center justify-end pb-6 text-white'>
+              <h1 className='text-2xl font-bold tracking-tight'>Caramel</h1>
+              <p className='text-sm font-medium opacity-90'>Eye Color</p>
+            </div>
+          </div>
+          
+          <div className='relative w-full xl:w-80 h-52 rounded-2xl overflow-hidden shadow-md group'>
+            <img src='https://ae03.alicdn.com/kf/S013a060220df43a881f171e6b10508bem.jpg_640x640q90.jpg' alt='Mahiru' className='w-full h-full object-cover group-hover:scale-105 transition-transform duration-700' />
+            <div className='absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex flex-col items-center justify-end pb-6 text-white'>
+              <h1 className='text-2xl font-bold tracking-tight'>Student</h1>
+              <p className='text-sm font-medium opacity-90'>Always learning</p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -158,7 +244,7 @@ export default function MahiruShiinaPage() {
             </button>
             <div className="flex flex-col items-center">
               <img src={poses[charPose]} alt={charPose} className="w-56 h-56 object-contain animate-pulse" />
-              <h2 className="text-[#A68A79] font-bold text-3xl mt-6 capitalize">{charPose}</h2>
+              <h2 className="text-[#A68A79] font-bold text-3xl mt-6 capitalize">{charPose} Pose</h2>
               <p className="text-center text-gray-500 mt-3 font-medium">Currently interacting with Dbz-Mahin7x</p>
             </div>
           </div>
