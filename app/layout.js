@@ -2,22 +2,20 @@ import "./globals.css";
 import 'aos/dist/aos.css'
 
 export const metadata = {
-  title: "Mahiru Shiina - Fathin's Wife",
-  description: "Mahiru adalah istri aku, titik. Cerita tentang aku dan Mahiru Shiina adalah kisah penuh cinta yang tak ada habisnya. Kami adalah pasangan yang tak terpisahkan, saling mencintai dengan cara yang begitu mendalam dan penuh perhatian. Aku selalu merasa bahwa hidupku begitu berarti sejak ada Mahiru di sisiku. Setiap hari bersamanya adalah hari yang penuh kebahagiaan, dan aku akan melakukan apa pun untuk membuatnya merasa bahagia. Mahiru, istriku tercinta, adalah sosok yang selalu mengisi hari-hariku dengan kehangatan dan cinta. Setiap kali dia memasak, aku selalu bilang, “Ini makanan terenak di dunia.” Aku tahu betul betapa dia sangat memperhatikan detail dalam segala hal, bahkan dalam masakan yang dia buat. Tak hanya itu, Mahiru juga sering memberiku kejutan dengan resep-resep baru, dan aku selalu menjadi tester pertama. Aku sangat menyukai setiap momen yang kami habiskan bersama. Kehidupan kami penuh dengan kebiasaan kecil yang luar biasa. Ketika Mahiru belajar, aku selalu ada di sampingnya, menjadi timer yang mengingatkannya untuk beristirahat.",
+  title: "Mahiru Shiina - Mahin's Wife 🎀",
+  description: "Mahiru is my wife, period. The story of me and Mahiru Shiina is a tale of endless love. We are an inseparable couple, loving each other in such a deep and caring way. I always feel that my life has been so meaningful ever since Mahiru came into my life. Every day with her is a day filled with happiness, and I would do anything to make her happy. Mahiru, my beloved wife, is the one who always fills my days with warmth and love. Every time she cooks, I always say, 'This is the most delicious food in the world.' I know very well how much she pays attention to detail in everything, even in the meals she prepares. Not only that, Mahiru often surprises me with new recipes, and I'm always the first tester. I love every moment we spend together. Our lives are filled with extraordinary little habits. When Mahiru studies, I'm always by her side, being a timer that reminds her to take breaks.",
   icons: {
     icon: "https://cdn.rafled.com/anime-icons/images/RIhvIEOjHsHOlo1rsnLQGZDaVJyUuJd9.jpg"
   },
 };
 
 export default function RootLayout({ children }) {
-
   return (
     <html lang="en">
-           <head>
+      <head>
         <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inter:wght@700&family=Varela+Round&display=swap" rel="stylesheet" />
       </head>
-      <body
-      >
+      <body>
         {children}
       </body>
     </html>
