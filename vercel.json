@@ -2,6 +2,5 @@
   "buildCommand": "next build",
   "devCommand": "next dev",
   "installCommand": "npm install",
-  "framework": "nextjs",
-  "node": "18.x"
+  "framework": "nextjs"
 }
