@@ -1,19 +1,20 @@
 @import "tailwindcss";
+
+/* Font imports are handled in layout.js, but we keep this for fallback */
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inter:wght@700&family=Varela+Round&display=swap');
 
-.font-fredoka {
-  font-family: 'Fredoka One', cursive;
-}
-
-.font-varela {
-  font-family: 'Varela Round', sans-serif;
-}
-
-.font-inter {
-  font-family: 'Inter', sans-serif;
-}
-
-@layer utilities {
+@theme {
+  --font-fredoka: 'Fredoka One', cursive;
+  --font-varela: 'Varela Round', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+  
+  --color-cream: #FFF8F1;
+  --color-mahiruBrown: #A68A79;
+  --color-mahiruText: #6E5C52;
+  
+  --animate-fadein: fadein 1s ease-out both;
+  --animate-typing: typing 2s steps(20, end) forwards, blink 0.7s infinite;
+  
   @keyframes fadein {
     0% {
       opacity: 0;
@@ -24,11 +25,7 @@
       transform: translateY(0);
     }
   }
-
-  .animate-fadein {
-    animation: fadein 1s ease-out both;
-  }
-
+  
   @keyframes typing {
     from {
       width: 0;
@@ -37,12 +34,7 @@
       width: 100%;
     }
   }
-
-  .animate-typing {
-    width: 0;
-    animation: typing 2s steps(20, end) forwards, blink 0.7s infinite;
-  }
-
+  
   @keyframes blink {
     0%, 100% {
       border-color: transparent;
@@ -53,6 +45,29 @@
   }
 }
 
+/* Utility classes for backward compatibility */
+.font-fredoka {
+  font-family: var(--font-fredoka);
+}
+
+.font-varela {
+  font-family: var(--font-varela);
+}
+
+.font-inter {
+  font-family: var(--font-inter);
+}
+
 .w-fit {
   width: fit-content !important;
+}
+
+/* Custom animations as utilities */
+.animate-fadein {
+  animation: var(--animate-fadein);
+}
+
+.animate-typing {
+  width: 0;
+  animation: var(--animate-typing);
 }
