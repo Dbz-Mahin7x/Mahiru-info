@@ -1,0 +1,58 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inter:wght@700&family=Varela+Round&display=swap');
+
+.font-fredoka {
+  font-family: 'Fredoka One', cursive;
+}
+
+.font-varela {
+  font-family: 'Varela Round', sans-serif;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+@layer utilities {
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fadein {
+    animation: fadein 1s ease-out both;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  .animate-typing {
+    width: 0;
+    animation: typing 2s steps(20, end) forwards, blink 0.7s infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #A68A79;
+    }
+  }
+}
+
+.w-fit {
+  width: fit-content !important;
+}
